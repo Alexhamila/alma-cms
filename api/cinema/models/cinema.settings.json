@@ -1,0 +1,28 @@
+{
+  "info": {
+    "name": "cinema"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "Titre": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "text"
+    },
+    "Bouton1": {
+      "type": "string"
+    },
+    "Bouton2": {
+      "type": "string"
+    },
+    "Page": {
+      "type": "richtext"
+    }
+  },
+  "connection": "default",
+  "collectionName": "cinemas"
+}

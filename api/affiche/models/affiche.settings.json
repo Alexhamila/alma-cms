@@ -1,0 +1,45 @@
+{
+  "connection": "default",
+  "collectionName": "affiches",
+  "info": {
+    "name": "Affiche"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "Titre": {
+      "type": "string",
+      "required": true
+    },
+    "Description": {
+      "type": "text",
+      "required": true
+    },
+    "Description2": {
+      "type": "text"
+    },
+    "Lien": {
+      "type": "string",
+      "required": false
+    },
+    "AfficheFond": {
+      "model": "file",
+      "via": "related",
+      "plugin": "upload",
+      "required": true
+    },
+    "Affiche": {
+      "model": "file",
+      "via": "related",
+      "plugin": "upload",
+      "required": true
+    },
+    "Couleur": {
+      "type": "string",
+      "default": "#1F1E29",
+      "required": true
+    }
+  }
+}

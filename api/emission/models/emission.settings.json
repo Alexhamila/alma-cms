@@ -1,0 +1,29 @@
+{
+  "connection": "default",
+  "collectionName": "emissions",
+  "info": {
+    "name": "Emission"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "Titre": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "richtext"
+    },
+    "Date": {
+      "type": "string"
+    },
+    "Link": {
+      "type": "string"
+    },
+    "Categorie": {
+      "type": "string",
+      "default": "General"
+    }
+  }
+}
